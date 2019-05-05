@@ -1,0 +1,3402 @@
+  .btn-button{
+    background-color: #2880c5; 
+    border-color: #2880c5; 
+    cursor: pointer;
+  }
+
+  .btn-button:hover{
+    background-color: #1b5683;
+    border-color: #1b5683;
+  }
+
+  #letra{
+    color: white;
+  }
+
+  .letraboton{
+    font-size: 0.98rem;
+    font-weight: 500;
+  }
+
+  .sub:hover{
+    text-decoration: underline;
+  }
+
+  .btn-lista{
+    background-color: #1b5683;
+  }
+
+  .btn-bts{
+    height: 48px;
+    width: 220px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    display: flex;
+  }
+
+  .drop-margen{
+    top: 56px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .drop-margen1{
+    top: 56px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 157px;
+  }
+
+  .btn-bts1{
+    height: 48px;
+    width: 157px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    display: flex;
+  }
+
+  .btn-bts1:hover{
+    background-color: #173852;
+  }
+
+  .cerrar{
+    margin-right: 12px;
+  }
+
+  .drop-division{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .btn-bts:hover{
+    background-color: #173852;
+  }
+
+  .btn-presionar{
+    color: white;
+  }
+
+  .btn-presionar:active{
+    background-color: #1b5683;
+    border-color: #1b5683;
+    color: white;
+  }
+
+  .btn-presionar:focus{
+    background-color: #1b5683;
+    border-color: #1b5683;
+    color: white;
+  }
+
+  .btn-presionar:hover{
+    background-color: #1b5683;
+    border-color: #1b5683;
+    color: white;
+  }
+
+  .btn-h{
+    margin-bottom: 0px;
+    height: 44px;
+  }
+
+  .hr12{
+    width: 1361px;
+    height: 411px;
+    margin-top: 0px;
+    border-top-width: 5px;
+    top: 54px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #1b5683;
+    border-bottom-width: 1px;
+    border-bottom-color: #8f97a5;
+  }
+
+  .hr11{
+    width: 1361px;
+    height: 297px;
+    margin-top: 0px;
+    border-top-width: 5px;
+    top: 54px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #1b5683;
+    border-bottom-width: 1px;
+    border-bottom-color: #8f97a5;
+  }
+
+  .margen1{
+    left: -269px;
+  }
+
+  .margen2{
+    left: -176px;
+  }
+
+  .letrap{
+    height: 35px;
+    width: 110px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: Muli,sans-serif;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+  }
+
+  .div-grupo{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+  }
+
+  .letrag{
+    height: 35px;
+    width: 93px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: Muli,sans-serif;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+  }
+
+  .ancla-grupo{
+    list-style-type: none;
+    text-align: -webkit-match-parent;
+    font-family: Muli,sans-serif;
+    height: 35px;
+  }
+
+/*.div-margen {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: -8px;
+}*/
+
+.div-margen {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: 0px;
+    height: 353px;
+}
+
+.letraschool{ 
+  color: white;
+  margin-bottom: 7px;
+  width: 122px;
+  height: 32px;
+  margin-left: 79px;
+  padding-top: 11px;
+  font-size: 0.92rem;
+}
+
+.nav-color{
+  background-color: #0677BA;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.logo{
+  padding-bottom: 6px;
+  margin-right: 4px;
+}
+
+.btn-grupos{
+    height: 59px;
+    padding-top: 15px;
+}
+
+.tamanio-imagen{
+    height: 35px;
+    width: 35px;
+    padding-bottom: 5px;
+}
+
+.div-2{
+  height: 353px;
+}
+
+.div-3{
+    height: 288px;
+}
+
+.letra-grupos{
+    height: 28px;
+    width: 1309px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 1.4rem;
+    font-family: Muli,sans-serif;
+    text-align: center;
+}
+
+.avion-papel{
+    margin-left: 540px;
+}
+
+.div-4{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+.boton-grupo{
+    border-radius: .3rem;
+    display: inline-flex;
+    font-family: Muli,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0677ba;
+    color: white;
+    height: 52px;
+    width: 147px;
+    margin-bottom: 10px;
+    margin-left: 585px;
+}
+
+.span-grupo{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*.div-margen1 {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: -8px;
+}*/
+
+.div-margen1 {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: 0px;
+    height: 267px;
+}
+
+.div-5{
+    height: 267px;
+}
+
+.div-6{
+    margin-bottom: 20px;
+    height: 183px;
+    display: flex;
+    list-style-type: none; /*nuevo*/
+}
+
+.div-7{
+    height: 183px;
+    width: 313px;
+    margin-right: 20px;
+    /*flex-grow: 1; 
+    flex-shrink: 0; 
+    flex-basis: 0;*/
+}
+
+.articulo{
+    grid-row-end: span 1;
+    border-color: #bdbdbd;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    height: 180px;
+    width: 312px;
+}
+
+.articulo:hover{
+  border-color: #0677BA;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 2px;
+}
+
+.hr10{
+    width: 395px;
+    height: 318px;
+    margin-top: -1px;
+    border-top-width: 6px;
+    border-top-color: #1b5683;
+    top: 54px;
+    border-right-color: #c0c6d0;
+    border-left-color: #c0c6d0;
+    border-bottom-color: #c0c6d0;
+}
+
+.hr9{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 74px;
+    margin-top: -8px;
+}
+
+.notificacion{
+    height: 38px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 400;
+    font-family: Muli,sans-serif;
+    color: #fff;
+    border-radius: 4rem;
+    background-color: #0677ba;
+    border-style: solid;
+    width: 113px;
+}
+
+.notificacion:focus{
+  outline: none;
+}
+
+.division{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    border-top-color: #c0c6d0;
+}
+
+.division1{
+    margin-top: 158px;
+    margin-bottom: 0px;
+    border-top-color: #c0c6d0;
+}
+
+.hr8{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    height: 74px;
+    margin-top: 0px;
+}
+
+.boton1{
+    width: 363px;
+    height: 42px;
+    color: white;
+    font-family: Muli,sans-serif;
+    background-color: #0677ba;
+    border-radius: 0.4rem;
+}
+
+.nav-footer{
+  background-color: #024F7D;
+  margin-top: 536px;
+  height: 60px;
+}
+
+.hr7{
+  width: 390px;
+  height: 133px;
+  margin-top: -1px;
+  border-top-width: 6px;
+  border-top-color: #1b5683;
+  top: 54px;
+  border-right-color: #c0c6d0;
+  border-left-color: #c0c6d0;
+  border-bottom-color: #c0c6d0;
+}
+
+.hr6{
+  height: 63px;
+  width: 390px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: -8px;
+  display: flex;
+}
+
+.mensaje{
+  font-weight: 200;
+  font-size: 1.1rem;
+  font-family: Muli,sans-serif;
+  width: 83px;
+  height: 20px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.ancla-mensaje{
+  margin-left: 167px;
+}
+
+.division2{
+  margin-top: 0px;
+  margin-top: 0px;
+  border-top-color: #c0c6d0;
+}
+
+.parrafo1{
+  margin-bottom: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 390px;
+  height: 60px;
+  margin-top: -7px;
+  text-align: center;
+  padding-top: 17px;
+  color: #666;
+  font-family: Muli, sans-serif;
+  font-size: 14.9px;
+}
+
+.margen-lupa{
+  margin-left: 442px
+}
+
+.hr5{
+  width: 377px;
+  height: 71px;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+  border-right-color: #1b5683;
+  border-bottom-color: #1b5683;
+  border-left-color: #1b5683;
+  margin-top: -1px;
+  border-top-width: 6px;
+  border-top-color: #1b5683;
+  top: 54px;
+}
+
+.img-lupa{
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.label1{
+  display: flex;
+}
+
+.buscar1{
+  padding-bottom: 0px;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  padding-top: 5px;
+  width: 300px;
+}
+
+.buscar1:focus{
+  outline: none;
+}
+
+.curso{
+  height: 95px;
+}
+
+.img-curso{
+  width: 310px;
+  height: 95px;
+}
+
+.div-curso{
+  height: 85px;
+  display: flex;
+}
+
+.margen0{
+  width: 310px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  overflow: hidden;
+}
+
+.letra-curso{
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+  color: #0677ba;
+  font-family: Open Sans,sans-serif;
+  font-size: 0.91rem;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.letra-curso1{
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+  color: #000000;
+  font-family: Open Sans,sans-serif;
+  font-size: 0.91rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.letra-curso2{
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+  color: #666;
+  font-family: Open Sans,sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.curso1{
+  height: 100px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.div-curso1{
+  height: 80px;
+  display: flex;
+}
+
+.span-curso{
+  color: #0677ba;
+  font-size: 6rem;
+  height: 90px;
+  width: 90px;
+  margin-top: -25px;
+  margin-left: 120px;
+  font-weight: 100;
+}
+
+.unir{
+  width: 310px;
+  height: 25px;
+  margin-bottom: 20px;
+  font-weight: 200;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/*::after{
+  content: "|";
+  margin: 0 1.5rem;
+}*/
+
+.flex{
+  display: flex;
+}
+
+.linea{
+  color: white;
+  height: 30px;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 0.97rem;
+  cursor: context-menu;
+}
+
+.letra-1{
+  font-weight: 500;
+  font-size: 0.92rem;
+}
+
+.navbar1{
+  padding-left: 174px;
+  padding-right: 0px;
+  height: 73px;
+}
+
+#form-login{
+  margin-right: auto;
+  margin-top: 10%;
+  padding-top: 17px;
+  padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 377px;
+  margin-left: 389px;
+  padding-bottom: 10px;
+  height: 234px;
+}
+
+/*clases para el menu desplegable de home*/
+
+/**/
+
+#logo{        
+  margin: 20px;
+  margin-top: 10px; 
+  margin-left: 25px; 
+  margin-right: 7px; 
+  margin-bottom: 7px;
+}
+
+#raya{
+  background-color: white;
+  margin: 5px 25px 0px;
+}
+
+#cuadro1{ 
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-left: 25px;
+  margin-right: 35px;
+  /*padding: 30px 60px 50px 60px;*/
+  /* border: 10px solid white; */
+  border-radius: 5px;
+}
+
+.cuadro{
+  margin-left: 90px;
+  margin-top: 0px;
+  padding-top: 14px;
+}
+
+.strong1{
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 1.12rem;
+  margin-top: 0px;
+}
+
+.margenparrafo{
+  margin-bottom: 3px;
+}
+
+.span1{
+  font-size: 12.4px;
+  color: #aaaaaa;
+  padding-left: 10px;
+}
+
+.input1{
+  margin-top: 10px;
+  width: 311px;
+  padding-left: 6px;
+  margin-left: 10px;
+  height: 34px;
+  border-color: #DDDDDD;
+  border-style: solid;
+  font-size: 0.95rem;
+  padding-bottom: 1px;
+  font-family: arial;
+}
+
+.input1:focus{
+  border-color: #769DCC;
+}
+
+::placeholder{
+  color: rgb(168, 168, 168);
+}
+
+.row1{
+  width: 375px;
+  margin-left: -20px;
+}
+
+.btn-login{
+  margin-top: 11px;
+  background-color: #5fb8d5;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  width: 82px;
+  height: 38px;
+  font-weight: bold;
+  font-size: 1.05rem;
+  border-style: solid;
+  padding-bottom: 3px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  font-family: "Sgy Open Sans", "Lucida Grande", Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.btn-login:hover{
+  background-color: #3EA1C1;
+}
+
+.btn-login1:hover{
+  text-decoration: none;
+}
+
+.div-8{
+  width: 233px;
+  height: 65px;
+  margin-top: 10px;
+}
+
+.div-9{
+  float: right;
+  font-size: 15px;
+  margin-left: 85px;
+  font-family: "Helvica", "san serif";
+}
+
+.margen3{
+  margin-top: -5px;
+}
+
+.div-10{
+  width: 376px;
+  height: 108px;
+  margin-left: 495px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.div-11{
+  height: 20px;
+  text-align: center;
+}
+
+.rule1{
+  padding-top: 9px;
+  border-color: #DBDBDA;
+  margin-top: -9px;
+  margin-bottom: 6px;
+}
+
+.rule{
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #fff6f6;
+  font-size: 0.9rem;
+}
+
+.div-12{
+  height: 66px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.img-qr{
+  margin-left: 67px;
+}
+
+.btn-qr{
+  margin-left: 20px;
+  background-color: #0677BA;
+  width: 155px;
+  height: 45px;
+  margin-top: 11px;
+  padding-top: 10px;
+}
+
+.span-qr{
+  color: white;
+  font-size: 0.86rem;
+}
+
+.footer1{
+  height: 50px;
+  padding-top: 89px;
+  padding-bottom: 60px;
+  background-color: #EEEEEE;
+  border-top-width: 1px;
+  border-color: #DBDBDB;
+  border-style: solid;
+  margin-top: 40px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  color: #556370;
+  display: flex;
+}
+
+.div-13{
+  float: left;
+  width: 367px;
+  height: 18px;
+  color: #556370;
+  margin-left: 77px;
+  margin-top: -40px;
+  font-size: 0.8rem;
+  font-weight: 450;
+  display: flex;
+}
+
+.divider0{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#color{
+  color: #556370;
+}
+
+.container1{
+  padding-left: 0px;
+  font-size: 0.78rem;
+  margin-left: 77px;
+  margin-top: 14px;
+  width: 804px;
+}
+
+.span2{
+  margin-left: 28px;
+  margin-top: 20px;
+}
+
+.span3{
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.span31{
+  margin-left: 18px;
+  margin-top: 20px;
+}
+
+.abc{
+  /*width: calc(100% - -5px);*/
+  max-width: 990px;
+  list-style-type: none;
+  padding-top: 5px;
+  margin: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c1c7cb;
+  display: flex;
+  padding-bottom: 0px;
+  height: 31px;
+  width: 790px;
+}
+
+.efg{
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  margin-top: 1px;
+  border-bottom: 5px solid #556370;
+  width: 150px;
+  height: 27px;
+}
+
+.efg1{
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  margin-top: 1px;
+  width: 150px;
+  height: 27px;
+}
+
+.hij{
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  margin-top: 1px;
+  border-bottom: 5px solid #556370;
+  width: 160px;
+  height: 27px;
+}
+
+#ancla2{
+  color: black;
+}
+
+#ancla3{
+  color: black;
+}
+
+.h0:hover{
+  text-decoration: none;
+}
+
+.container2{
+  padding-left: 0px;
+  margin-left: 72px;
+  height: 300px;
+  width: 1140px;
+}
+
+.parrafo2{
+  margin-left: 23px;
+  margin-top: 14px;
+  font-size: 0.85rem;
+}
+
+.btn-cal{
+  margin-left: 2px;
+  height: 38px;
+  padding-bottom: 4px;
+  padding-top: 11px;
+  padding-left: 9px;
+}
+
+.img-cal{
+  width: 18px;
+  padding-bottom: 6px;
+}
+
+.texto{
+  font-size: 0.9rem;
+}
+
+.texto1{
+  height: 30px;
+  font-size: 0.9rem;
+  margin-left: 555px;
+  padding-top: 2px;
+}
+
+.tam{
+  padding-right: 0px;
+  width: 802px;
+  height: 300px;
+}
+
+.margen4{
+  margin-left: -40px;
+}
+
+.div0{
+  margin-left: 0px;
+  height: 300px;
+  width: 1280px;
+}
+
+.div1{
+  margin-left: 0px;
+  width: 790px;
+  height: 300px;
+}
+
+.div2{
+  width: 380px;
+  height: 92px;
+  border: 1px;
+  border-color: gainsboro;
+  border-style: solid;
+  margin-left: 28px;
+  margin-top: 2px;
+}
+
+.div3{
+  padding-left: 0px;
+  padding-top: 9px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C1C7CB;
+  margin-left: 14px;
+  margin-right: 10px;
+  padding-bottom: 1px;
+}
+
+.calendar{
+  margin-left: 213px;
+}
+
+.letter{
+  font-size: 0.94rem;
+  color: #556370;
+}
+
+.letter1{
+  font-size: 0.77rem;
+  margin-left: 228px;
+}
+
+#color0{
+  color: #4479B3;
+}
+
+.div4{
+  padding-left: 14px;
+  padding-top: 6px;
+}
+
+.fuente{
+  font-size: 0.79rem;
+}
+
+.container3{
+  padding-left: 35px;
+  padding-right: 0px;
+  width: 1275px;
+}
+
+.img-user{
+  margin-top: 11px;
+  width: 175px;
+}
+
+.img-user:hover{
+  content: "Edit Picture";
+}
+
+.divimg{
+  height: 36px;
+  margin-top: 12px;
+  width: 181px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #C7C7C7;
+  border-left-color: #C7C7C7;
+  border-bottom-color: #C7C7C7;
+  padding-top: 5px;
+  padding-left: 6px;
+}
+
+.imgu{
+  padding-bottom: 5px;
+}
+
+.span4{
+  padding-top: 0px;
+  margin-bottom: -5px;
+  font-size: 0.9rem;
+  margin-left: 2px;
+  color: black;
+}
+
+.div05{
+  width: 1022px;
+  margin-left: -16px;
+  height: 595px;
+  border-right-color: #C7C7C7;
+  border-left-color: #C7C7C7;
+  border-bottom-color: #C7C7C7;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.div06{
+  height: 54px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C7C7C7;
+  display: flex;
+}
+
+.name{
+  display: block;
+  width: 67%;
+  font-size: 18px;
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+.div07{
+  height: 540px;
+  width: 657px;
+  padding-bottom: 25px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #C7C7C7;
+}
+
+.div08{
+  height: 170px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.info1{
+  width: 100%;
+  border: 0;
+  height: 155px;
+}
+
+.div09{
+  height: 29px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C7C7C7;
+  padding-top: 3px;
+}
+
+.info2{
+  font-size: 0.906rem;
+  font-weight: 500;
+}
+
+.div00{
+  height: 38px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C7C7C7;
+  padding-top: 7px;
+}
+
+.birthday{
+  color: #9A9FA8;
+  padding-top: 0px;
+  font-size: 0.82rem;
+  margin-right: 108px;
+}
+
+.cump{
+  font-size: 0.82rem;
+}
+
+.contacto{
+  height: 48px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C7C7C7;
+}
+
+.info3{
+  font-size: 0.94rem;
+  padding-top: 25px;
+  margin-bottom: 3px;
+}
+
+.email{
+  padding-left: 15px;
+  font-size: 0.82rem;
+}
+
+.msj1{
+  width: 10px;
+}
+
+.div02{
+  height: 157px;
+  margin-top: -540px;
+  margin-left: 656px;
+  width: 344px;
+  padding-bottom: 40px;
+}
+
+.div030{
+  height: 116px;
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-right: 22px;
+}
+
+.div040{
+  height: 100px;
+}
+
+.course{
+  font-size: 0.95rem;
+  height: 23px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C7C7C7;
+}
+
+.is{
+  height: 69px;
+}
+
+.imgc{
+  width: 38px;
+  height: 28px;
+  padding-bottom: 3px;
+}
+
+.spanc{
+  font-size: 0.78rem;
+  color: #0056B3;
+  font-weight: 400;
+}
+
+.h1:hover{
+  text-decoration: underline;
+}
+
+.edit1{
+  margin-left: 259px;
+  height: 27px;
+  margin-top: 3px;
+  width: 60px;
+  padding-bottom: 1px;
+}
+
+.imgedit{
+  width: 12px;
+  padding-bottom: 6px;
+  padding-right: 3px;
+}
+
+.edit2{
+  font-size: 0.8rem;
+  color: black;
+}
+
+.cuadro10{
+  width: 1240px;
+  height: 581px;
+  margin-left: 54.5px;
+  margin-right: 54.5px;
+}
+
+.cuadro11{
+  width: 1240px;
+  height: 541px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+}
+
+.cuadro12{
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 0px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-color: #C7C7C7;
+  border-left-color: #C7C7C7;
+  border-bottom-color: #C7C7C7;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  height: 541px;
+}
+
+.cuadro13{
+  height: 416px;
+}
+
+.cuadro14{
+  height: 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C7C7C7;
+}
+
+.Edit0{
+  height: 24px;
+  margin-bottom: 0px;
+  font-size: 19px;
+}
+
+.cuadro15{
+  height: 361px;
+  padding-bottom: 40px;
+}
+
+.formulario{
+  padding-top: 15px;
+  height: 321px;
+}
+
+.cuadro16{
+  float: left;
+  width: 171px;
+  height: 109px;
+  border-right: 1px solid #c7c7c7;
+  padding-top: 10px;
+  cursor: pointer;
+  margin-right: -1px;
+}
+
+.tab-nav2{
+  width: 170px;
+  height: 32px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 28px;
+  margin-top: 1px;
+  display: block;
+  font-size: 13.5px;
+}
+
+.nav02:active{
+  background-color: #9900ff;
+  font-weight: 600;
+}
+
+.nav02:focus-visible{
+  background-color: chartreuse;
+}
+
+.nav03:hover{
+  background-color: #eef3f8;
+}
+
+.icono01{
+  height: 18px;
+  width: 28px;
+  float: left;
+  margin-left: -28px;
+  margin-top: 0px;
+}
+
+.info03{
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+
+.text1{
+  margin-left: 170px;
+  padding: 15px;
+  border: 1px solid #c7c7c7;
+  background: #f5f5f5;
+  height: 224px;
+}
+
+.area1{
+  padding: 15px 0 10px 170px;
+  height: 43px;
+  font-size: 13px;
+}
+
+.area2{
+  padding: 10px 0 0 170px;
+  text-align: left;
+  height: 39px;
+}
+
+.profile1{
+  height: 192px;
+}
+
+.bloque1{
+  padding: 15px 0;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0;
+  height: 79px;
+}
+
+.input01{
+  float: left;
+  width: 150px;
+  padding-right: 10px;
+  margin-top: 5px;
+  text-align: right;
+  height: 18px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form-textarea{
+  width: 362px;
+  height: 44px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  overflow: hidden;
+  font-size: 13px;
+  resize: none;
+}
+
+.grippie{
+  display: none;
+}
+
+.areatext{
+  position: absolute;
+  display: none;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  border-color: rgb(199, 199, 199);
+  border-style: solid;
+  border-width: 1px;
+  font-weight: 400;
+  width: 350px;
+  font-family: "Sgy Open Sans", "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  line-height: normal;
+  font-size: 13px;
+  padding: 5px;
+  border-color: #c7c7c7;
+}
+
+#edit-profile-about-bio{
+  border-color: #c7c7c7;
+}
+
+.bloque2{
+  padding: 15px 0;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0;
+  height: 59px;
+}
+
+.genero{
+  overflow: hidden;
+  height: 28px;
+  padding: 4px;
+  width: 76px;
+  font-size: 13px;
+}
+
+#genero1{
+  border-color: #c7c7c7;
+}
+
+.container-inline-date{
+  height: 54px;
+}
+
+.bloque3{
+  padding-top: 15px;
+  height: 54px;
+  padding-bottom: 15px;
+}
+
+.bloque4{
+  padding: 15px 0;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0;
+  height: 75px;
+}
+
+.bloque5{
+  height: 44px;
+  padding-top: 4px;
+}
+
+.correo1{
+  padding: 1px 0 1px 161px;
+  display: block;
+  height: 20px;
+  font-size: 13px;
+}
+
+.correo2{
+  padding: 1px 0 ;
+  margin-left: 161px;
+  font-weight: normal;
+  font-size: 13px;
+  height: 20px;
+  color: #4479b3;
+}
+
+.bloque6{
+  padding: 15px 0;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0;
+  height: 61px;
+}
+
+.form-text{
+  width: 362px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 0px;
+  border: 1px;
+  border-style: solid;
+  border-color: #c7c7c7;
+  font-size: 13px;
+}
+
+.bloque7{
+  padding: 15px 0;
+  height: 71px;
+}
+
+.website{
+  resize: none;
+  width: 362px;
+  height: 40px;
+  padding: 5px;
+  border-color: #c7c7c7;
+  font-size: 13px;
+}
+
+.button10{
+  height: 29px;
+  width: 118px;
+  background: #337dbc;
+  background-image: url("https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-bg-dark.gif?5cb9e71f52723b12");
+  background-repeat: repeat-x;
+  border: 1px solid #023d5a;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.Guardar1{
+  margin: -3px 0 0 0;
+  cursor: pointer;
+  background: 0;
+  font-size: 15px;
+  outline: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  overflow: visible;
+  height: 27px;
+  width: 116px;
+}
+
+.save:active{
+  background: #337dbc;
+}
+
+.cancelar{
+  background: #888;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/gray-btn-bg.gif?5cb9e71f52723b12);
+  background-repeat: repeat-x;
+  height: 29px;
+  cursor: pointer;
+  padding: 5px 8px;
+  width: 63px;
+  margin-top: 0px;
+  border-color: #999 #999 #888;
+  border-style: solid;
+  border-width: 1px;
+  color: #444;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  margin-left: 1px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.cancelar:hover{
+  text-decoration: none;
+  color: #444;
+}
+
+.cancelar:active{
+  background-color: #ddd;
+  background-image: none;
+}
+
+.div-course{
+  width: 796px;
+  height: 310px;
+}
+
+.dashboard1{
+  padding-top: 20px;
+  height: 310px;
+}
+
+.view{
+  height: 290px;
+}
+
+.course1{
+  padding-top: 10px;
+  height: 290px;
+  width: 806px;
+  margin-left: -9px;
+  position: relative;
+}
+
+.icon1{
+  display: inline-block;
+  position: absolute;
+  top: -24px;
+  right: 18px;
+  width: 24px;
+  height: 24px;
+  background-image: url(https://i0.wp.com/www.eneso.es/blog/wp-content/uploads/2016/10/equil-circulo-azul.png?fit=1063%2C1063);
+  background-size: cover;
+}
+
+.tip{
+  background-color: #556370;
+  color: white;
+  font-family: "Arial";
+  font-size: 12px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 45px;
+  display: none;
+  position: absolute;
+  text-align: left;
+}
+
+.lineas{
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #EBEAE8;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.comentarios{
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  height: 45px;
+  width: 769px;
+}
+
+.altura01{
+  height: 20px;
+}
+
+.post01{
+  float: left;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0 10px 0 0;
+  height: 18px;
+  width: 30px;
+}
+
+.li-calendar{
+  display: inline;
+  float: left;
+  margin: 0 5px 0 0;
+  height: 21px;
+  width: 58px;
+}
+
+.cal-03{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_calendar.png?5cc9c441494f0fa0);
+  background-repeat: no-repeat;
+  background-position: 0 -48px;
+  width: 58px;
+  height: 24px;
+  padding: 3px 3px 3px 20px;
+  font-size: 13px;
+  display: inline-block;
+  margin-top: -3px;
+  color: #327cbb;
+  border: 0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.most1{
+  width: 103px;
+  height: 23px;
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+
+.recent1{
+  cursor: pointer;
+  font-weight: normal;
+  display: inline-block;
+  color: #4479b3;
+  font-size: 13px;
+  padding: 3px 20px 3px 8px;
+  margin-top: -1px;
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png?5cc9c441494f0fa0) no-repeat right 9px;
+  text-decoration: none;
+}
+
+.recent1:hover{
+  text-decoration: underline;
+}
+
+.recent1:active{
+  color: black;
+  text-decoration: none;
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5cc9c441494f0fa0) no-repeat right -577px;
+}
+
+.recent1:focus{
+  color: black;
+  text-decoration: none;
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5cc9c441494f0fa0) no-repeat right -577px;
+}
+
+.cuadro-desplegable{
+  min-width: 150px;
+  z-index: 1;
+  right: 0;
+  top: 21px;
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #333;
+  padding: 5px 0;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  width: 152px;
+  height: 93px;
+}
+
+.op1{
+  width: 150px;
+  height: 27px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 22px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5cc9c441494f0fa0);
+  background-position: 0 -237px;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  float: left;
+  font-size: 12px;
+}
+
+.op1:hover{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5cc9c441494f0fa0);
+  background-position: 0 -257px;
+  background-repeat: no-repeat;
+  background-color: #444444;
+  cursor: pointer;
+  color: white;
+}
+
+.img-op1{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5cc9c441494f0fa0);
+  background-position: 0 -350px;
+  background-repeat: no-repeat;
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin-right: 7px;
+}
+
+.op2{
+  width: 150px;
+  height: 27px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 22px;
+  float: left;
+  font-size: 12px;
+}
+
+.op2:hover{
+  background-color: #444444;
+  cursor: pointer;
+  color: white;
+}
+
+.img-op2{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5cc9c441494f0fa0);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin-right: 7px;
+}
+
+.op3{
+  width: 150px;
+  height: 27px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 22px;
+  float: left;
+  font-size: 12px;
+}
+
+.op3:hover{
+  background-color: #444444;
+  cursor: pointer;
+  color: white;
+}
+
+.img-op3{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5cc9c441494f0fa0);
+  background-position: 0 -325px;
+  background-repeat: no-repeat;
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin-right: 7px;
+}
+
+.tarjetas{
+  width: 804px;
+  height: 280px;
+}
+
+.poo{
+  width: 300px;
+  margin-left: 41px;
+  margin-bottom: 20px;
+  margin-right: 51px;
+  height: 240px;
+  list-style: none;
+}
+
+.seccion-01{
+  width: 298px;
+  height: 238px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #ECEBE9;
+}
+
+.img-poo{
+  position: relative;
+  width: 100%;
+  height: 67%;
+  background: #f4f5f5;
+}
+
+#imagen-0100{
+  width: 296px;
+  height: 150px;
+  background-size: cover;/*sólo para ejemplo*/
+  background-image: url("https://asset-cdn.schoology.com/system/files/imagecache/card_thumbnail/courselogos/logo-1963848666.png/logo-1606716413_5b0ece28c9527_5ba2ac8debfeb_5c4f3cbc521a3.png");
+  margin: 30px auto;
+  margin-top: 0px;
+}
+
+#info-001 {
+  position:absolute;
+  overflow:hidden;
+  width: 296px;
+  height: 150px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+#imagen-0100:hover #info-001 {
+  opacity:4;
+}
+
+#headline {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+}
+
+#imagen-0100:hover #headline {
+  margin-left: 115px;
+}
+
+#descripcion-001 {
+	color: white;
+	font-family: Arial;
+	padding-top: 50px;
+  margin-left: 10px;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+
+#imagen-0100:hover #descripcion-001 {
+  margin-top: 75px;
+}
+
+.poo3{
+  position: relative;
+  overflow: hidden;
+  height: calc(33% - 8px);
+  padding: 5px 30px 0 5px;
+  font-size: 14px;
+  color: #44505d;
+}
+
+.user-01{
+  margin-top: 9px;
+  font-size: 12px;
+}
+
+.course-1{
+  margin: 0 auto;
+  width: 100%;
+  min-width: 980px;
+  max-width: 1240px;
+  clear: both;
+  height: 636px;
+}
+
+.course-2{
+  margin: 0 0 40px;
+  padding: 0 20px;
+  height: 596px;
+  width: 1200;
+}
+
+.div-left1{
+  float: left;
+  width: 180px;
+  margin: 0 -1px 0 0;
+  padding-top: 15px;
+  height: 285px;
+}
+
+.img-left1{
+  margin-bottom: 10px;
+  height: 90px;
+  width: 170px;
+}
+
+.img-left2{
+  position: relative;
+  height: 90px;
+  width: 170px;
+}
+
+.img-cache{
+  height: 86px;
+  width: 170px;
+}
+
+.part-02{
+  width: 181px;
+  margin: 0;
+  position: relative;
+  height: 171px;
+}
+
+.menu-01{
+  height: 171px;
+  width: 181px;
+}
+
+.menu-02{
+  list-style: none;
+  height: 171px;
+  width: 181px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.li-01{
+  height: 171px;
+}
+
+.D01{
+  display: none;
+}
+
+.D02{
+  background: 0;
+  border: 0;
+  margin: 0;
+  font-weight: normal;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 31px;
+}
+
+.mat-01{
+  height: 36px;
+  width: 181px;
+}
+
+.mat-02{
+  text-decoration: none;
+  color: #333;
+  float: left;
+  background-color: #fff;
+  font-weight: 500;
+  width: 182px;
+  height: 36px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 31px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-top: -1px;
+  margin-left: -1px;
+  border-right-width: 0px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #C7C7C7;
+  font-size: 13px;
+}
+
+.mat-02:hover{
+  color: #333;
+  text-decoration: none;
+}
+
+.icon-mat{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccb26a51e332e10);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 28px;
+  margin-top: -1px;
+  margin-left: -31px;
+  display: inline-block;
+  float: left;
+  background-position: 5px -800px;
+}
+
+.drop-mat{
+  float: right;
+  margin-top: -4px;
+  cursor: pointer;
+  height: 24px;
+  width: 22px;
+  outline: none;
+}
+
+.drop-mat:hover{
+  background: #fff url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/gray-btn-bg.gif?5ccb26a51e332e10)
+   repeat-x 0 1px;
+  border: 1px solid;
+  border-color: #999 #888 #888;
+  margin-top: -3px;
+  outline: none;
+}
+
+.drop-mat:active{
+  background-color: #555555;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5ccb26a51e332e10);
+  background-repeat: no-repeat;
+  background-position: 1px -597px;
+  border: 1px solid;
+  border-color: #000000;
+  margin-top: -3px;
+  outline: none;
+}
+
+.icon-drop{
+  display: block;
+  width: 22px;
+  height: 24px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5ccb26a51e332e10);
+  background-repeat: no-repeat;
+  background-position: 1px -575px;
+}
+
+.drop-001{
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  border: 1px solid #000;
+  height: 133px;
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+  min-width: 240px;
+  max-width: 300px;
+  margin-left: -1px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  bottom: 3px;
+  right: -60px;
+  left: 0px;
+}
+
+.drop-002{
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  height: 131px;
+}
+
+.drop-003{
+  height: 120px;
+}
+
+.drop-004{
+  padding-left: 0px;
+  height: 120px;
+}
+
+.primero1{
+  height: 28px;
+  list-style: none;
+}
+
+.a-1{
+  padding-left: 35px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  height: 28px;
+  float: left;
+  width: 240px;
+  font-weight: normal!important;
+  border: 0;
+  white-space: nowrap;
+  color: black;
+  font-size: 13.5px;
+}
+
+.hov:hover{
+  background-color: #f5f5f5;
+  color: black;
+  text-decoration: none;
+}
+
+.s-1{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5ccc6f00571550ae);
+  background-position: 0 -1849px;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  margin-left: -26px; 
+  margin-top: 1px;
+  margin-bottom: -3px;
+  margin-right: 3px;
+  float: left;
+}
+
+.s-3{
+  background-position: 0 -1749px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5ccc6f00571550ae);
+  background-position: 0 -1749px;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  margin-left: -26px; 
+  margin-top: 1px;
+  margin-bottom: -3px;
+  margin-right: 3px;
+  float: left;
+}
+
+.s-4{
+  background-position: 0 -1749px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5ccc6f00571550ae);
+  background-position: 0 -1774px;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  margin-left: -26px; 
+  margin-top: 1px;
+  margin-bottom: -3px;
+  margin-right: 3px;
+  float: left;
+}
+
+.up-01{
+  height: 36px;
+  width: 181px;
+}
+
+.up-02{
+  color: #333;
+  float: left;
+  background-color: #fff;
+  /*font-weight: 500;*/
+  width: 182px;
+  height: 36px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 31px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-top: -1px;
+  margin-left: -1px;
+  font-size: 13px;
+  margin-right: 0px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c7c7c7;
+}
+
+.up-02:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.icon-up{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 28px;
+  margin-top: -1px;
+  margin-left: -31px;
+  display: inline-block;
+  float: left;
+  background-position: 5px -1025px;
+}
+
+.up-02:hover .icon-up{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 5px -1000px;
+}
+
+.grad-01{
+  color: #333;
+  float: left;
+  background-color: #fff;
+  /*font-weight: 500;*/
+  width: 182px;
+  height: 36px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 31px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-top: -1px;
+  margin-left: -1px;
+  font-size: 13px;
+  margin-right: 0px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c7c7c7;
+}
+
+.grad-01:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.icon-grad{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 28px;
+  margin-top: -1px;
+  margin-left: -31px;
+  display: inline-block;
+  float: left;
+  background-position: 5px -125px;
+}
+
+.grad-01:hover .icon-grad{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 5px -100px;
+}
+
+.dan-01{
+  color: #333;
+  float: left;
+  background-color: #fff;
+  width: 182px;
+  height: 36px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 31px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-top: -1px;
+  margin-left: -1px;
+  font-size: 13px;
+  margin-right: 0px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c7c7c7;
+}
+
+.dan-01:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.icon-dan{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 28px;
+  margin-top: -1px;
+  margin-left: -31px;
+  display: inline-block;
+  float: left;
+  background-position: 5px -875px;
+}
+
+.dan-01:hover .icon-dan{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 5px -850px;
+}
+
+.mem-01{
+  color: #333;
+  float: left;
+  background-color: #fff;
+  width: 182px;
+  height: 36px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 31px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-top: -1px;
+  margin-left: -1px;
+  font-size: 13px;
+  margin-right: 0px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c7c7c7;
+}
+
+.mem-01:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.icon-mem{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 28px;
+  margin-top: -1px;
+  margin-left: -31px;
+  display: inline-block;
+  float: left;
+  background-position: 5px -75px;
+}
+
+.mem-01:hover .icon-mem{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 5px -50px;
+}
+
+.sidebar{
+  margin-left: 180px;
+  border: 1px solid #c7c7c7;
+  border-top: 0;
+  padding: 0 20px;
+  background: #fff;
+  min-height: 500px;
+  height: 595px;
+}
+
+.h-01{
+  position: relative;
+  height: 595px;
+}
+
+.h-02{
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 54px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #DDDDDD;
+}
+
+.h-03{
+  display: block;
+  width: 67%;
+  height: 24px;
+  font-size: 19px;
+}
+
+.h-04{
+  color: #333;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: right 5px;
+  padding-right: 27px;
+}
+
+.h-04:hover{
+  color: #333;
+}
+
+.h-05{}
+
+.h-06{
+  display: block;
+}
+.h-07{
+  position: absolute;
+  right: 0;
+  top: 15px;
+  z-index: 10;
+  max-width: 30%;
+  height: 26px;
+  left: 859.75px;
+}
+
+.h-08{
+  float: right;
+  position: relative;
+  margin-left: 4px;
+  height: 26px;
+}
+
+.not-01{
+  height: 26px;
+  line-height: 14px;
+  font-weight: 500;
+  font-size: 12.5px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/gray-btn-bg.gif?5ccc6f00571550ae);
+  background-repeat: repeat-x;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-color: #999 #999 #888;
+  color: #333;
+  display: inline-block;
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  cursor: pointer;
+  width: 114.250px;
+}
+
+.not-01:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.not-01:active{
+  background: #ddd;
+}
+
+.icon-msj{
+  height: 16px;
+  width: 16px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/sms.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 2px;
+  float: left;
+  margin: -3px 5px 0 -3px;
+}
+
+.z-01{
+  padding-bottom: 0;
+  width: 978px;
+}
+
+.z-02{
+  width: 67%;
+  float: left;
+  min-height: 540px;
+  padding-bottom: 40px;
+}
+
+.z-03{
+  padding: 15px 20px 0 0;
+  height: 397px;
+}
+
+.z-04{
+  height: 387px;
+  margin-top: -5px;
+}
+
+.materials-top{
+  padding-top: 0;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  height: 38px;
+}
+
+.z-05{
+  float: left;
+  margin-right: 4px;
+}
+
+.z-06{
+  position: absolute;
+  right: 10px;
+  bottom: -12px;
+  background: #fff;
+  z-index: 2;
+  height: 27px;
+  width: 107.625px;
+}
+
+.arrow{
+  position: absolute;
+  right: 6px;
+  top: 10px;
+}
+
+.z-07{
+  height: 27px;
+  width: 107.625px;
+  float: none;
+}
+
+.z-08{
+  font-weight: normal;
+  height: 27px;
+  outline: 0px;
+}
+
+.let-mat{
+  padding: 5px 22px 5px 5px;
+  margin-left: 6px;
+  margin-right: 6px;
+  height: 27px;
+  font-size: 12px;
+  color: #83A6CD;
+  outline: 0px;
+}
+
+.let-mat:hover{
+  text-decoration: underline;
+  outline: 0px;
+}
+
+.let-mat:active{
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: right -576px;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  right: 0px;
+  outline: 0px;
+}
+
+.links1{
+  right: 0;
+  border: 1px solid #555;
+  border-width: 1px 1px 2px;
+  background: #fff;
+  padding: 7px 0;
+  position: absolute;
+  z-index: 500;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  text-align: left;
+  height: 125px;
+  width: 141.625px;
+}
+
+.li-hol{
+  width: 139.625px;
+  height: 27px;
+  list-style: none;
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5ccc6f00571550ae);
+  background-repeat:  no-repeat;
+  background-position:  0 -237px;
+  font-weight: 500;
+}
+
+.li-hol:hover{
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png?5ccc6f00571550ae);
+  background-repeat:  no-repeat;
+  background-position:  0 -256px;
+  background-color: #333;
+}
+
+.divhol{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 24px -269px;
+  font-size: 12px;
+  color: #333;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-left: 46px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 25px;
+}
+
+.divhol:hover{
+  color: #89d4fa;
+  text-decoration: none;
+}
+
+.li-fil{
+  width: 139.625px;
+  height: 27px;
+  list-style: none;
+}
+
+/*.li-fil:hover{
+  background-color: #333;
+}*/
+
+.divfil{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 24px -71px;
+  font-size: 12px;
+  color: #333;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-left: 46px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 25px;
+  float: left;
+  height: 27px;
+  width: 139.625px;
+}
+
+.divfil:hover{
+  color: #89d4fa;
+  text-decoration: none;
+  background-color: #333;
+}
+
+.divlin{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 24px -296px;
+  font-size: 12px;
+  color: #333;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-left: 46px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 25px;
+  float: left;
+  height: 27px;
+  width: 139.625px;
+}
+
+.divlin:hover{
+  color: #89d4fa;
+  text-decoration: none;
+  background-color: #333;
+}
+
+.divdis{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 24px -95px;
+  font-size: 12px;
+  color: #333;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-left: 46px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 25px;
+  float: left;
+  height: 27px;
+  width: 139.625px;
+}
+
+.divdis:hover{
+  color: #89d4fa;
+  text-decoration: none;
+  background-color: #333;
+}
+
+.z-09{
+  margin-top: -15px;
+  height: 349px;
+}
+
+.z-10{
+  height: 349px;
+}
+
+.t-01{
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  height: 348px;
+}
+
+.t-02{
+  height: 49px;
+}
+
+.t-03{
+  height: 348px;
+}
+
+.folder-01{
+  padding: 15px 0 15px 47px;
+  border-bottom: 1px solid #eaeaea;
+  line-height: 1.4;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -webit-hyphens: auto;
+  -moz-hyphens: auto;
+  height: 50px;
+  width: 635px;
+}
+
+.t-04{
+  margin: 1px 0 -10px -62px;
+  float: left;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/expandable-sprite.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.t-04:hover{
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/expandable-sprite.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 -16px;
+  cursor: pointer;
+}
+
+.visually{
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 10px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px,1px,1px,1px);
+  word-break: normal;
+  display: block;
+}
+
+.material-folder{
+  line-height: 1.4;
+}
+
+.t-05{
+  float: left;
+  margin: -5px 0 -10px -42px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_large.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 26px;
+  width: 32px;
+}
+
+.item-info{
+  float: left;
+  width: 100%;
+  height: 19px;
+}
+
+.folder-title{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+  color: #4479B3;
+}
+
+.t-06{
+  float: left;
+  margin: -5px 0 -10px -42px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_large.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 -1840px;
+  height: 26px;
+  width: 32px;
+}
+
+.t-07{
+  float: left;
+  margin: -5px 0 -10px -42px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_large.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 -1880px;
+  height: 26px;
+  width: 32px;
+}
+
+.active-01{
+  outline: 0;
+  color: #4479b3;
+}
+
+.e-01{
+  height: 88px;
+}
+
+.folder-cell{
+  padding: 15px 0 15px 47px;
+  border-bottom: 1px solid #eaeaea;
+  line-height: 1.4;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -webit-hyphens: auto;
+  -moz-hyphens: auto;
+  height: 90px;
+}
+
+.folder-w{}
+
+.icon-d01{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_large.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 -120px;
+  float: left;
+  height: 32px;
+  width: 32px;
+  margin-left: -42px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  font-weight: 500;
+}
+
+.item-01{
+  float: left;
+  width: 100%;
+  height: 57px;
+}
+
+.item-title{
+  color: #9a9fa8;
+  height: 19px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.proc01{
+  color: #4479B3;
+  font-weight: 500;
+}
+
+.item-02{
+  padding-top: 3px;
+  height: 19px;
+  color: #333;
+  font-size: 12.5px;
+}
+
+.item-03{
+  color: grey;
+  padding-top: 3px;
+  height: 19px;
+  font-size: 15px;
+}
+
+.r-01{
+  height: 61px;
+}
+
+.r-02{
+  padding: 15px 0 15px 47px;
+  border-bottom: 1px solid #eaeaea;
+  line-height: 1.4;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -webit-hyphens: auto;
+  -moz-hyphens: auto;
+  height: 61px;
+}
+
+.r-03{
+
+}
+
+.links03{
+  float: left;
+  margin: 0 0 -10px -42px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_large.png?5ccc6f00571550ae);
+  background-position: 0 -640px;
+  background-repeat: no-repeat;
+}
+
+.r-04{
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+
+.r-05{
+  float: left;
+  width: 100%;
+  height: 30px;
+}
+
+.r-06{
+  padding-top: 3px;
+  height: 22px;
+}
+
+.reposit{
+  color: #4479B3;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.right-column1{
+  float: left;
+  width: 33%;
+  padding-bottom: 40px;
+  height: 535px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #dddddd;
+}
+
+.right-01{
+  padding: 15px 0 0 20px;
+  height: 95px;
+}
+
+.right-02{
+  display: block;
+  margin: 0 0 15px;
+  height: 65px;
+}
+
+.selector01{
+  font-size: 15px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  height: 23px;
+}
+
+.upcoming{
+  color: #333;
+  font-weight: 500;
+  cursor: default;
+}
+
+.upcoming01{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+  float: none; 
+  margin-bottom: -3px;
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_calendar.png?5ccc6f00571550ae);
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+}
+
+.events1{
+  margin: 0;
+  height: 37px;
+  color: #BBBEC4;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.updates-01{
+  padding: 15px 20px 0 0;
+  height: 400px;
+}
+
+.updates-02{
+  height: 385px;
+}
+
+.updates-03{
+  height: 184px;
+}
+
+.crearpost{
+  margin-bottom: 12px;
+  padding: 0 6px 45px;
+  border-bottom: 1px solid #ddd;
+  height: 186px;
+  position: relative;
+}
+
+.updates-04{
+  height: 135px;
+}
+
+.updates-05{
+  height: 135px;
+  width: 635.250px;
+  margin-right: -6px;
+  margin-left: -6px;
+}
+
+.updates-06{
+  height: 135px;
+  margin-bottom: 5px;
+}
+
+.upd-01{
+  margin-right: -6px;
+  margin-left: -6px;
+  width: 100%;
+  height: 135px;
+  padding: 5px;
+  border: 1px;
+  border-style: solid;
+  border-color: #ddd;
+}
+
+.upd-02{
+  height: 39px;
+  padding-top: 5px;
+  padding-left: 502px;
+}
+
+.button-01{
+  height: 27px;
+  width: 118px;
+  background: #337dbc;
+  background-image: url("https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-bg-dark.gif?5cb9e71f52723b12");
+  background-repeat: repeat-x;
+  border: 1px solid #023d5a;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  float: left;
+}
+
+.Guardar2{
+  margin: -3px 0 0 0;
+  cursor: pointer;
+  background: 0;
+  font-size: 15px;
+  outline: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  overflow: visible;
+  height: 27px;
+  width: 116px;
+}
+
+.grado-01{
+  padding-bottom: 40px;
+  width: 978px;
+  height: 341px;
+}
+
+.grado-02{
+  width: 958px;
+  height: 31px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+}
+
+.grado-03{
+  height: 51px;
+  width: 958px;
+}
+.grado-04{
+  padding: 15px 0 17px;
+  min-height: 16px;
+  position: relative;
+  width: 485px;
+  height: 51px;
+  display: flex;
+}
+
+.grado-04:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #4479B3;
+}
+
+.icon-report{
+  position: absolute;
+  clip: rect(0,15px,15px,0);
+  top: 16px;
+  left: -20px;
+  padding-left: 5px;
+}
+
+.grado-05{
+  line-height: 15px;
+  font-size: 13px;
+  color: #4479B3;
+  margin-left: 5px;
+}
+
+.grado-06{
+  line-height: 15px;
+  font-size: 13px;
+  color: #333;
+  margin-left: 15px;
+}
+
+.summary1{
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  height: 64px;
+  width: 958px;
+}
+
+.black{
+  font-weight: 500;
+}
+
+.grey{
+  font-weight: 500;
+  color: grey;
+}
+
+.asis-02{
+  width: 690px;
+  margin: 25px 0;
+  height: 88px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #dddddd;
+  padding-top: 12px;
+}
+
+.asis-03{
+  width: 690px;
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  border-bottom-width: 1px;
+  line-height: 16px;
+  height: 31px;
+}
+}
+
+.black1{
+  font-size: 15px;
+  color: #333;
+}
+
+.black2{
+  font-size: 15px;
+  color: #333;
+  margin-left: 160px;
+}
+
+.black3{
+  font-size: 15px;
+  color: #333;
+  margin-left: 160px;
+}
+
+.none1{
+  height: 38px;
+  padding-top: 5px;
+}
+
+.grey1{
+  font-size: 14px;
+  color: #BBBEC4;
+}
+
+.grey2{
+  font-size: 14px;
+  color: #BBBEC4;
+  margin-left: 183px;
+}
+
+.grey3{
+  font-size: 14px;
+  color: #BBBEC4;
+  margin-left: 165px;
+}
+
+.coments{
+  height: 93px;
+}
+
+.com-01{
+  margin-top: 0;
+  width: 690px;
+  padding: 15px;
+  margin-bottom: -1px;
+  border: 1px solid #ddd;
+  background: #f2f2f2;
+  height: 49px;
+  text-align: center;
+  font-size: 14px;
+  color: #BBBEC4;
+}
+
+.miem-01{
+  height: 300px;
+  width: 978px;
+}
+
+.miem-02{
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+  position: relative;
+  height: 50px;
+}
+
+.miem-03{
+  height: 26px;
+  width: 978px;
+  display: flex;
+}
+
+.miem-04{
+  padding: 0;
+  right: 0;
+  top: -27px;
+  width: 293.391px;
+  height: 30px;
+  left: 684.609px;
+  bottom: 10px;
+  position: relative;
+  text-align: right;
+}
+
+.in-01{
+  width: 100%;
+    height: auto;
+    color: #333;
+    border: 1px solid #c7c7c7;
+    font: 13px "Sgy Open Sans","Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+    padding: 5px;
+}
+
+.search1{
+  padding: 5px 10px;
+  width: 28px;
+  height: 24px;
+  top: 1px;
+  right: 1px;
+  background: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png?5ccc6f00571550ae) no-repeat 50% -977px #fff;
+  position: absolute;
+  border: 0;
+  text-indent: -9999px;
+  text-align: left;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.all1{
+  font-size: 13px;
+  background: #577aa8;
+  color: #fff;
+  cursor: default;
+  margin-right: 3px;
+  padding: 4px 6px;
+  display: inline-block;
+  font-weight: 500;
+  height: 26px;
+  width: 27.844px;
+}
+
+.all2{
+  font-size: 13px;
+  margin-right: 3px;
+  padding: 4px 6px;
+  display: inline-block;
+  font-weight: 500;
+  color: #327cbb;
+  height: 26px;
+  width: 71.453px;
+  text-align: center;
+}
+
+.all2:hover{
+  cursor: pointer;
+  background-color: #F2F2F2;
+}
+
+.w-01{
+  margin: 0 auto;
+    width: 100%;
+    min-width: 980px;
+    max-width: 1240px;
+    clear: both;
+    height: 540px;
+}
+
+.w-02{
+  margin: 0 0 40px;
+  padding: 0 20px;
+  height: 500px;
+}
+
+.w-03{
+  height: 500px;
+}
+
+.w-04{
+  position: relative;
+  height: 467px;
+}
+
+.w-05{
+  padding-left: 75px;
+  padding-bottom: 40px;
+  height: 467px;
+  width: 1200px;
+}
+
+.w-06{
+  padding-top: 5px;
+  position: relative;
+  z-index: 1;
+  width: 65px;
+  float: left;
+  margin-left: -75px;
+  height: 323px;
+}
+
+.w-07{
+  width: 65px;
+  height: 288px;
+}
+
+.z{
+  list-style: none;
+}
+
+.img-01{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/resources-menu-icon.png?5ccc6f00571550ae);
+  background-position: 0 -436px;
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat!important;
+}
+
+.img-02{
+  background-image: url(https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/resources-menu-icon.png?5ccc6f00571550ae);
+  background-position: 0 0;
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat!important;
+}

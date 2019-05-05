@@ -1,0 +1,357 @@
+.btn-button{
+    background-color: #2880c5; 
+    border-color: #2880c5; 
+    cursor: pointer;
+  }
+
+  .btn-button:hover{
+    background-color: #1b5683;
+    border-color: #1b5683;
+  }
+
+  #letra{
+    color: white;
+  }
+
+  .sub:hover{
+    text-decoration: underline;
+  }
+
+  .btn-lista{
+    background-color: #1b5683;
+  }
+
+  .btn-bts{
+    height: 48px;
+    width: 220px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    display: flex;
+  }
+
+  .drop-margen{
+    top: 56px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .drop-division{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .btn-bts:hover{
+    background-color: #173852;
+  }
+
+  .btn-presionar{
+    color: white;
+  }
+
+  .btn-presionar:active{
+    background-color: #1b5683;
+    border-color: #1b5683;
+    color: white;
+  }
+
+  .btn-presionar:focus{
+    background-color: #1b5683;
+    border-color: #1b5683;
+    color: white;
+  }
+
+  .btn-presionar:hover{
+    background-color: #1b5683;
+    border-color: #1b5683;
+    color: white;
+  }
+
+  .btn-h{
+    margin-bottom: 0px;
+    height: 44px;
+  }
+
+  .hr12{
+    width: 1366px;
+    height: 411px;
+    margin-top: 0px;
+    border-top-width: 5px;
+    top: 54px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #1b5683;
+    border-bottom-width: 1px;
+    border-bottom-color: #8f97a5;
+  }
+
+  .hr11{
+    width: 1366px;
+    height: 297px;
+    margin-top: 0px;
+    border-top-width: 5px;
+    top: 54px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #1b5683;
+    border-bottom-width: 1px;
+    border-bottom-color: #8f97a5;
+  }
+
+  .margen1{
+    left: -266px;
+  }
+
+  .margen2{
+    left: -172px;
+  }
+
+  .letrap{
+    height: 35px;
+    width: 110px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: Muli,sans-serif;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+  }
+
+  .div-grupo{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+  }
+
+  .letrag{
+    height: 35px;
+    width: 93px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: Muli,sans-serif;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+  }
+
+  .ancla-grupo{
+    list-style-type: none;
+    text-align: -webkit-match-parent;
+    font-family: Muli,sans-serif;
+    height: 35px;
+  }
+
+/*.div-margen {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: -8px;
+}*/
+
+.div-margen {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: 0px;
+    height: 353px;
+}
+
+.letraschool{
+  font-size: 0.9rem; 
+  padding-top: 10px; 
+  height: 30px; 
+  width: 120px; 
+  margin-left: 90px; 
+  color: white;
+}
+
+.nav-color{
+  background-color: #2880c5;
+  padding-top: 0px;
+  padding-bottom: 0px; 
+}
+
+.btn-grupos{
+    height: 59px;
+    padding-top: 15px;
+}
+
+.tamanio-imagen{
+    height: 35px;
+    width: 35px;
+    padding-bottom: 5px;
+}
+
+.div-2{
+  height: 353px;
+}
+
+.div-3{
+    height: 288px;
+}
+
+.letra-grupos{
+    height: 28px;
+    width: 1309px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 1.4rem;
+    font-family: Muli,sans-serif;
+    text-align: center;
+}
+
+.avion-papel{
+    margin-left: 540px;
+}
+
+.div-4{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+.boton-grupo{
+    border-radius: .3rem;
+    display: inline-flex;
+    font-family: Muli,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0677ba;
+    color: white;
+    height: 52px;
+    width: 147px;
+    margin-bottom: 10px;
+    margin-left: 585px;
+}
+
+.span-grupo{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*.div-margen1 {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: -8px;
+}*/
+
+.div-margen1 {
+    margin-left: 1.4rem;
+    margin-right: 2.0rem;
+    margin-top: 0px;
+    height: 267px;
+}
+
+.div-5{
+    height: 267px;
+}
+
+.div-6{
+    margin-bottom: 20px;
+    height: 183px;
+    display: flex;
+}
+
+.div-7{
+    height: 183px;
+    width: 313px;
+    margin-right: 20px;
+    /*flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;*/
+}
+
+.articulo{
+    height: 180px;
+    width: 310px;
+    /*grid-row-end: span 1;*/
+    border-top: 1px;
+}
+
+.hr10{
+    width: 395px;
+    height: 318px;
+    margin-top: -1px;
+    border-top-width: 6px;
+    border-top-color: #1b5683;
+    top: 54px;
+    border-right-color: #c0c6d0;
+    border-left-color: #c0c6d0;
+    border-bottom-color: #c0c6d0;
+}
+
+.hr9{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 74px;
+    margin-top: -8px;
+}
+
+.notificacion{
+    height: 38px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 400;
+    font-family: Muli,sans-serif;
+    color: #fff;
+    border-radius: 4rem;
+    background-color: #0677ba;
+    border-style: solid;
+    width: 113px;
+}
+
+.division{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    border-top-color: #c0c6d0;
+}
+
+.division1{
+    margin-top: 158px;
+    margin-bottom: 0px;
+    border-top-color: #c0c6d0;
+}
+
+.hr8{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    height: 74px;
+    margin-top: 0px;
+}
+
+.boton1{
+    width: 363px;
+    height: 42px;
+    color: white;
+    font-family: Muli,sans-serif;
+    background-color: #0677ba;
+    border-radius: 0.4rem;
+}
+
+.nav-footer{
+    background-color: #1b5683;
+    margin-top: 537px;
+    height: 61px;
+}
+
+/*::after{
+    content: "|";
+    margin: 0 1.5rem;
+}*/

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Settings | Schoology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/costum.css" rel="stylesheet">
+    <link href="css/estilos1.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light nav-color">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="140" height="30" style="padding-bottom: 5px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="btn-group btn-group-toggle " data-toggle="buttons" >
+            <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  COURSES
+                </a> 
+                <div class="dropdown-menu hr11 margen2 dropdown-menu-right">
+                  <div class="div-margen1">
+                    <div class="div-5">
+                    <div class="div-grupo">
+                      <h2 class="letrap">Courses</h2>
+                      <a href="#">My Courses</a>
+                    </div>
+                    <div class="div-6">
+                      <div class="div-7">
+                        <a class="articulo"></a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          <div class="dropdown">
+              <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                GROUPS
+              </a> 
+              <div class="dropdown-menu hr12 margen1 dropdown-menu-right">
+                <div class="div-margen">
+                <div class="div-2">
+                <div class="div-grupo">
+                  <h2 class="letrag">Groups</h2>
+                  <a href="#">My Groups</a>
+                </div>
+                <div>
+                  <header class="div-3">
+                    <h2 class="letra-grupos">You have not joined any groups</h2>
+                    <img src="img/20190310_145406.png" class="avion-papel">
+                    <div class="div-4">
+                        <button class="boton-grupo">
+                          <span class="span-grupo">Join a Group</span>
+                        </button>
+                    </div>
+                  </header>
+                </div>
+                </div>
+                </div>
+              </div>
+          </div>
+          <label class="btn btn-presionar btn-grupos">
+            <input type="radio" name="options" id="option3" autocomplete="off"><a href="resources.html"><span style="color: white">RESOURCES</span></a>
+          </label>
+          <div class="dropdown">
+              <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                GRADES
+              </a> 
+          <div class="dropdown-menu btn-lista drop-margen" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item btn-bts" id="letra" href="#">Grade Report</a>
+            <a class="dropdown-item btn-bts" id="letra" href="#">Attendance</a>
+          </div>
+        </div>
+        <div class="btn-group btn-group-toggle " data-toggle="buttons" >
+            <label class="btn btn-presionar btn-grupos" style="margin-left: 454px"> 
+              <input type="radio" name="options" id="option1" autocomplete="off" checked><img src="img/lupa.png" class="tamanio-imagen" >
+            </label>
+            <label class="btn btn-presionar btn-grupos">
+              <input type="radio" name="options" id="option2" autocomplete="off"><img src="img/calendary.png" class="tamanio-imagen">
+            </label>
+            <label class="btn btn-presionar btn-grupos">
+              <input type="radio" name="options" id="option3" autocomplete="off"><img src="img/mensaje.png" class="tamanio-imagen">
+            </label>
+            <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/campana.png" class="tamanio-imagen">
+                </a>
+            <div class="dropdown-menu dropdown-menu-right hr10">
+              <div class="hr9">
+                <button class="notificacion">Notifications</button>
+                <a href="#" style="text-decoration: none;">Requests</a>
+              </div>
+              <div class="dropdown-divider division"></div>
+              <footer>
+                  <div class="dropdown-divider division1"></div>
+                  <div class="hr8">
+                    <button class="boton1">View All</button>
+                  </div>
+              </footer>
+            </div>
+            </div>
+        <div class="dropdown">
+            <a class="btn btn-presionar dropdown-toggle btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              @Usuario
+            </a>
+        <div class="dropdown-menu dropdown-menu-right btn-lista drop-margen" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item btn-bts" id="letra" href="User.html">Your Profile</a>
+          <a class="dropdown-item btn-bts" id="letra" href="#">user school</a>
+          <a class="dropdown-item btn-bts" id="letra" href="settings.html">Setting</a>
+          <div class="dropdown-divider drop-division"></div>
+          <a class="dropdown-item btn-bts" id="letra" href="login.html">Logout</a>
+        </div>
+      </nav>
+    </header>
+<!--aqui esta el body-->
+<div class="container-fluid">
+ <div class="col-xl-11">
+     <p>Account</p>
+     <div class="row">
+         <button type="button" id="account">Account Settings</button>
+         <button type="button" id="notifications">Notifications</button>
+         <button type="button" id="privacy">Privacy Settings</button>
+         <button type="button" id="recycle">Recycle Bin</button>
+     </div>
+     <hr>
+     <div id="account1">
+         <p>Account info</p>
+         <hr>
+         <div class="row">
+             <p>First Name: *</p><input type="text" placeholder="Juan" id="primer-nombre">
+         </div>
+         <div class="row">
+                <p>Middle Name:</p><input type="text" placeholder="Perez" id="segundo-nombre">
+            </div>
+            <div class="row">
+                    <p>Last Name: *</p><input type="text" id="apellido">
+                </div>
+                <div class="row">
+                        <p>Username</p><input type="text" id="user-name">
+                    </div>
+                    <div class="row">
+                            <p>Primary Email</p><input type="text" placeholder="juanperez89@gmail.com" id="correo-principal">
+                        </div>
+                        <div class="row">
+                                <p>Alternate Email:</p><input type="text" id="correo-secundario">
+                            </div>    
+        <div class="row">
+            <p>Timezone:</p>
+            <select id="zona-horaria">
+                    <option value="Honduras">Honduras</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Costarica">Costarica</option>
+                    <option value="Panama">Panama</option>
+                    <option value="El Salvador">El Salvador</option>
+                </select>
+        </div>
+        <p> By clicking Save Changes, you are agreeing to our Privacy Policy and Terms of Use</p><br>
+        <button type="button" style="background-color:aqua">Save Changes</button><br>
+         
+        <p>Account Password</p><br>
+        <hr>
+        <div class="row">
+            <p>Password:</p><p>Change your password</p>
+        </div>
+        <div></div>
+        <p>Share Your Schoology Calendar</p>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2">
+                   <image src="img/attendance.png">
+                </div>
+                <div class="col-xl-9">
+                    <p>Access your Schoology calendar from a different calendar tool (e.g. Outlook, Google Calendar)</p><br>
+                     <button type="button">Enable</button>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <p>Link Account</p>
+        <hr>
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-xl-2">
+                    <button type="button">Link Accounts</button>
+              </div>
+            <div clas="col-xl-9">
+                    <p>Instructions: Use this to link your other Schoology accounts together. This will enable you to switch between your accounts without having to log in to each separately.</p>
+            </div>
+        </div>
+        </div>
+
+        <p>Merge Account</p>
+        <hr>
+        <div class="row">
+                <button type="button">Merge Accounts</button>
+                <span>Instructions: Use this to merge a duplicate Schoology account into this one. This will delete your old account and transfer your courses/groups to this account.</span>
+            </div>
+        <p>Other Options</p>
+        <hr>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-2">
+                       <p>File Uploader:</p>
+                    </div>
+                    <div class="col-xl-9">
+                            <label>Advanced (requires Flash)<input type="radio" name="rbt-genero" value="F"></label><br>
+                            <label>Basic (use this option if you are having trouble uploading files)<input type="radio" name="rbt-genero" value="F"></label>
+                    </div>
+                    <hr>
+                </div>
+            </div> 
+            <div></div>
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-2">
+                           <p>Set Home Page To:</p>
+                        </div>
+                        <div class="col-xl-9">
+                                <label>Recent Activity<input type="radio" name="rbt-genero" value="F"></label><br>
+                                <label>Course Dashboard<input type="radio" name="rbt-genero" value="F"></label><br>
+                                <div></div>
+                                <button type="button">Save Changes</button>
+                        </div>
+                        <hr>
+                    </div>
+                </div>    
+     </div>
+     <!--aqui termina account1-->
+     <div id="notifications1">
+         <div class="container-fluid">
+             <div class="row">
+                 <div class="col-xl-9">
+                 <p>Notifications</p><br>
+                 <p>Schoology sends you notifications when actions occur that involve you. You can select which notifications you would like to receive.</p><br>
+                 <p>Turn Off All Notifications</p><br>
+                 <div class="row">
+                     <p>Academic</p>
+                     <label><img src="img/folder.png"><pan>Email</pan></label>
+                 </div>
+                <hr>
+                 <div class="row">
+                     <p>Course update posted</p>
+                     <select id="item1">
+                         <option value="off">off</option>
+                         <option value="on">on</option>
+                         <option value="costum">costum</option>
+                     </select>
+                     <hr>
+                 </div>
+                 <hr>
+                 <div class="row">
+                        <p>Course comments on updates, assignments, or discussions</p>
+                        <select id="item2">
+                            <option value="off">off</option>
+                            <option value="on">on</option>
+                            <option value="costum">costum</option>
+                        </select>
+                        <hr>
+                    </div>
+                    <hr>
+                    <div class="row">
+                            <p>Comments on my posts</p>
+                            <select id="item3">
+                                <option value="off">off</option>
+                                <option value="on">on</option>
+                                <option value="costum">costum</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <hr>
+                        <div class="row">
+                                <p>Course content created</p>
+                                <select id="item4">
+                                    <option value="off">off</option>
+                                    <option value="on">on</option>
+                                    <option value="costum">costum</option>
+                                </select>
+                                <hr>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                    <p>Course materials overdue</p>
+                                    <select id="item5">
+                                        <option value="off">off</option>
+                                        <option value="on">on</option>
+                                        <option value="costum">costum</option>
+                                    </select>
+                                    <hr>
+                                </div>  
+                                
+                                <div class="row">
+                                        <p>group</p>
+                                        <label><img src="img/folder.png"><pan>Email</pan></label>
+                                    </div>   
+                    <hr>
+                    <div class="row">
+                            <p>Group update posted</p>
+                            <select id="item6">
+                                <option value="off">off</option>
+                                <option value="on">on</option>
+                                <option value="costum">costum</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <hr>
+                        <div class="row">
+                                <p>Group comments on updates or discussions</p>
+                                <select id="item7">
+                                    <option value="off">off</option>
+                                    <option value="on">on</option>
+                                    <option value="costum">costum</option>
+                                </select>
+                                <hr>
+                            </div>
+                            <hr>         
+                            <div class="row">
+                                    <p>Comments on my posts</p>
+                                    <select id="item8">
+                                        <option value="off">off</option>
+                                        <option value="on">on</option>
+                                        <option value="costum">costum</option>
+                                    </select>
+                                    <hr>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                        <p>Group content created</p>
+                                        <select id="item9">
+                                            <option value="off">off</option>
+                                            <option value="on">on</option>
+                                            <option value="costum">costum</option>
+                                        </select>
+                                        <hr>
+                                    </div>
+                                    <hr>    
+                                    <div class="row">
+                                            <p>School</p>
+                                            <label><img src="img/folder.png"><pan>Email</pan></label>
+                                        </div>                        
+                <div class="row">
+                        <p>School update</p>
+                        <select id="item10">
+                            <option value="off">off</option>
+                            <option value="on">on</option>
+                            <option value="costum">costum</option>
+                        </select>
+                        <hr>
+                    </div>
+                    <hr><div class="row">
+                            <p>School update comment</p>
+                            <select id="item11">
+                                <option value="off">off</option>
+                                <option value="on">on</option>
+                                <option value="costum">costum</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <hr>
+               <div class="row">
+                       <p>Personal</p>
+                       <label><img src="img/folder.png"><pan>Email</pan></label>
+                   </div>
+                   <div class="row">
+                        <p>Receive a private message</p>
+                        <select id="item12">
+                            <option value="off">off</option>
+                            <option value="on">on</option>
+                            <option value="costum">costum</option>
+                        </select>
+                        <hr>
+                    </div>
+                    <hr>
+                    <div class="row">
+                            <p>Receive a new subscriber</p>
+                            <select id="item13">
+                                <option value="off">off</option>
+                                <option value="on">on</option>
+                                <option value="costum">costum</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <hr>
+                        <div class="row">
+                                <p>Another user replies to a blog comment you posted</p>
+                                <select id="item14">
+                                    <option value="off">off</option>
+                                    <option value="on">on</option>
+                                    <option value="costum">costum</option>
+                                </select>
+                                <hr>
+                            </div>
+                            <hr>
+                       <button type="button">Save Changes</button>
+                 </div>
+                 <div class="col-xl-2">
+                     <div class="alert alert-primary"><p>Send notifications to your phone via text message</p></div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!--aqui termina notifications1-->
+    <div id="privacy1" class="border">
+        <p>User Privacy Settings</p>
+        <table border="1" cellspacing="0" cellpadding="15">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Everyone</th>
+                        <th>Schoology Users</th>
+                        <th>School</th>
+                        <th>No One</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Profile:</td>
+                        <td class="table-active"></td>
+                        <td class="table-active"></td>
+                        <td class="table-success"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Updates: </td>
+                        <td class="table-active"></td>
+                        <td class="table-active"></td>
+                        <td class="table-success"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Media Albums:</td>
+                        <td class="table-active"></td>
+                        <td class="table-active"></td>
+                        <td class="table-success"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                            <td>Groups:  </td>
+                            <td class="table-active"></td>
+                            <td class="table-active"></td>
+                            <td class="table-success"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                <td>Courses:    </td>
+                                <td class="table-active"></td>
+                                <td class="table-active"></td>
+                                <td class="table-success"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                    <td>Badges:  </td>
+                                    <td class="table-active"></td>
+                                    <td class="table-active"></td>
+                                    <td class="table-success"></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                        <td>Email Address:</td>
+                                        <td class="table-active"></td>
+                                        <td class="table-active"></td>
+                                        <td class="table-success"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                            <td>Messaging:  </td>
+                                            <td class="table-active"></td>
+                                            <td class="table-active"></td>
+                                            <td class="table-success"></td>
+                                            <td></td>
+                                        </tr>
+                </tbody>
+            </table>
+        <button type="button" style="background-color:#4B94D3;margin-top: 15px;margin-bottom: 15px" class="border"><span style="color:white">Save Changes</span></button>    
+    </div>
+    <!--fin de privacy-->
+ </div>
+</div>
+<!---->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+
+(function inicial(){
+$('#privacy1').fadeOut(100);
+$('#notifications1').fadeOut(100);
+})();
+
+function ocultar1(){
+    $('#privacy1').fadeOut(100);
+$('#notifications1').fadeOut(100);
+};
+function ocultar2(){
+    $('#privacy1').fadeOut(100);
+$('#account1').fadeOut(100);
+};
+function ocultar3(){
+    $('#account1').fadeOut(100);
+$('#notifications1').fadeOut(100);
+};
+
+$('#account').click(function poner1(){
+            $('#account1').fadeIn(2);
+            (ocultar1())();
+        });
+
+ $('#notifications').click(function poner2(){
+     $('#notifications1').fadeIn(2);
+     (ocultar2())();
+        });
+        
+$('#privacy').click(function poner3(){
+    $('#privacy1').fadeIn(2);
+    (ocultar3())();
+        });
+        
+</script>
+<!---->
+<footer>
+  <nav class="navbar navbar-expand-lg navbar-light nav-footer">
+      <a class="navbar-brand sub" href="#" id="letra" style="padding-bottom: 6px; font-size: 1rem">English</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link sub" href="#" style="padding-left: 8px; margin-left: 590px" id="letra">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link sub" href="#" id="letra">Schoology Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link sub" href="#" id="letra">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link sub" href="#" id="letra">Terms of Use</a>
+          </li>
+          <h1 class="letraschool">Schoology © 2019</h1>
+        </ul>
+      </div>
+    </nav>
+</footer>
+
+  </body>
+  </html>

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Course | Schoology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos1.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.4.1.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light nav-color" style="height: 61px;">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" width="140" height="30" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="btn-group btn-group-toggle " data-toggle="buttons" >
+              <div class="dropdown">
+                  <a class="btn btn-presionar btn-h btn-grupos letraboton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    COURSES
+                  </a> 
+                  <div class="dropdown-menu hr11 margen2 dropdown-menu-right">
+                    <div class="div-margen1">
+                      <div class="div-5">
+                      <div class="div-grupo">
+                        <h2 class="letrap">Courses</h2>
+                        <a href="#">My Courses</a>
+                      </div>
+                      <div class="div-6">
+                        <div class="div-7">
+                          <article class="articulo">
+                            <a href="#" style="text-decoration: none">
+                              <div class="curso">
+                                <img src="img/curso1.png" class="img-curso">
+                              </div>
+                              <div class="div-curso">
+                                <div class="margen0">
+                                  <div class="letra-curso">IS410-Programacion Orientada a Objetos</div>
+                                  <div class="letra-curso1">I-2019</div>
+                                  <div class="letra-curso2">user school</div>
+                                </div>
+                              </div>
+                            </a>
+                          </article>
+                        </div>
+                        <div class="div-7">
+                          <article class="articulo">
+                            <a href="#" style="text-decoration: none">
+                              <div class="curso1">
+                                <span class="span-curso">+</span>
+                              </div>
+                              <div class="div-curso1">
+                                <h3 class="unir">Join a Course</h3>
+                              </div>
+                            </a>
+                          </article>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos letraboton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  GROUPS
+                </a> 
+                <div class="dropdown-menu hr12 margen1 dropdown-menu-right">
+                  <div class="div-margen">
+                  <div class="div-2">
+                  <div class="div-grupo">
+                    <h2 class="letrag">Groups</h2>
+                    <a href="#">My Groups</a>
+                  </div>
+                  <div>
+                    <header class="div-3">
+                      <h2 class="letra-grupos">You have not joined any groups</h2>
+                      <img src="img/20190310_145406.png" class="avion-papel">
+                      <div class="div-4">
+                          <button class="boton-grupo">
+                            <span class="span-grupo">Join a Group</span>
+                          </button>
+                      </div>
+                    </header>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+            <label class="btn btn-presionar btn-grupos letraboton">
+              <input type="radio" name="options" id="option3" autocomplete="off"> RESOURCES
+            </label>
+            <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos letraboton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  GRADES
+                </a> 
+            <div class="dropdown-menu btn-lista drop-margen1" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item btn-bts1" id="letra" href="#">Grade Report</a>
+              <a class="dropdown-item btn-bts1" id="letra" href="#">Attendance</a>
+            </div>
+          </div>
+          <div class="btn-group btn-group-toggle " data-toggle="buttons" >
+              <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos margen-lupa" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="img/lupa.png" class="tamanio-imagen">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right hr5">
+                  <li>
+                    <label class="label1">
+                      <div>
+                        <img src="img/lupa.png" class="img-lupa">
+                      </div>
+                      <input type="text" placeholder="Search" class="buscar1" value>
+                    </label>
+                  </li>
+                </div>
+              </div>
+              <label class="btn btn-presionar btn-grupos">
+                <input type="radio" name="options" id="option2" autocomplete="off"><img src="img/calendary.png" class="tamanio-imagen">
+              </label>
+              <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/mensaje.png" class="tamanio-imagen">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right hr7">
+                  <div class="hr6">
+                    <h3 class="mensaje">Messages</h3>
+                    <a href="#" style="text-decoration: none;" class="ancla-mensaje">New Message</a>
+                  </div>
+                  <div class="dropdown-divider division2"></div>
+                  <p class="parrafo1">You currently do not have any messages.</p>
+                </div>
+              </div>
+              <div class="dropdown">
+                  <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="img/campana.png" class="tamanio-imagen">
+                  </a>
+              <div class="dropdown-menu dropdown-menu-right hr10">
+                <div class="hr9">
+                  <button class="notificacion">Notifications</button>
+                  <a href="#" style="text-decoration: none;">Requests</a>
+                </div>
+                <div class="dropdown-divider division"></div>
+                <footer>
+                    <div class="dropdown-divider division1"></div>
+                    <div class="hr8">
+                      <button class="boton1">View All</button>
+                    </div>
+                </footer>
+              </div>
+          </div>
+          <div class="dropdown">
+              <a class="btn btn-presionar dropdown-toggle btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                @Usuario
+              </a>
+          <div class="dropdown-menu dropdown-menu-right btn-lista drop-margen" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item btn-bts" id="letra" href="#">Your Profile</a>
+            <a class="dropdown-item btn-bts" id="letra" href="#">user school</a>
+            <a class="dropdown-item btn-bts" id="letra" href="#">Setting</a>
+            <div class="dropdown-divider drop-division"></div>
+            <div>
+              <a class="dropdown-item btn-bts" id="letra" href="#"><img src="img/cerrar.png" width="18px" class="cerrar">Logout</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--body-->
+      <div class="course-1">
+        <div class="course-2">
+          <!--Barra Izquierda--> 
+          <div class="div-left1">
+            <div class="img-left1">
+               <div class="img-left2">
+                   <img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/courselogos/logo-1963848666.png/logo-1606716413_5b0ece28c9527_5ba2ac8debfeb_5c4f3cbc521a3.png?1548696764" 
+                   alt="Profile picture for IS410-Programacion Orientada a Objetos: I-2019" class="img-cache">
+               </div>
+            </div>
+            <div class="part-02" role="navigation">
+                <div id="menu-home" role="navigation"></div>
+                <div class="menu-01">
+                  <ul class="menu-02" role="menu">
+                    <li role="menuitem" class="li-01">
+                        <div class="D01">
+                          <a href="course.html" class="D02" role="menuitem">
+                            <span>
+                              <span>Current Menu Item</span>
+                            </span>
+                            Course Profile
+                          </a>
+                        </div>
+                        <ul class="menu-02" role="menu">
+                          <li role="menuitem" class="mat-01" id="materiales1">
+                            <div class="mat-01">
+                               <a href="#" class="mat-02" role="menuitem">
+                                   <span class="icon-mat"></span>
+                                   <div class="drop-mat" tabindex="0" aria-haspopup="true" onclick="mostrar('divTexto2'); return false">
+                                       <span class="icon-drop"></span>
+                                   </div>
+                                   Materials
+                               </a>
+                               <div class="drop-001" id="divTexto2"style="display: block;visibility:hidden">
+                                <div class="drop-002">
+                                    <div class="drop-003">
+                                        <ul class="drop-004">
+                                          <li class="primero1">
+                                            <a href="#" class="a-1 hov">
+                                                <span class="s-1"></span>
+                                                Documentos
+                                            </a>
+                                          </li>
+                                          <li class="primero1">
+                                            <a href="#" class="a-1 hov">
+                                                <span class="s-1"></span>
+                                                Ejercicios Practicos
+                                            </a>
+                                          </li>
+                                          <li class="primero1">
+                                            <a href="#" class="a-1 hov">
+                                                <span class="s-3"></span>
+                                                Enunciados
+                                            </a>
+                                          </li>
+                                          <li class="primero1">
+                                            <a href="#" class="a-1 hov">
+                                                <span class="s-4"></span>
+                                                Entregas
+                                            </a>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                          </li>
+                          <li role="menuitem" class="up-01" id="actualizaciones1">
+                            <div class="up-01">
+                              <a href="#" class="up-02" role="menuitem">
+                                <span class="icon-up"></span>
+                                Updates
+                              </a>  
+                            </div>
+                          </li>
+                          <li role="menuitem" class="up-01" id="grados1">
+                            <div class="up-01">
+                              <a href="#" class="grad-01" role="menuitem">
+                                <span class="icon-grad"></span>
+                                Grades
+                              </a>  
+                            </div>
+                          </li>
+                          <li role="menuitem" class="up-01" id="asistencia1">
+                            <div class="up-01">
+                              <a href="#" class="dan-01" role="menuitem">
+                                <span class="icon-dan"></span>
+                                Attendance
+                              </a>  
+                            </div>
+                          </li>
+                          <li role="menuitem" class="up-01" id="miembros1">
+                            <div class="up-01">
+                              <a href="#" class="mem-01" role="menuitem">
+                                <span class="icon-mem"></span>
+                                Members
+                              </a>  
+                            </div>
+                          </li>
+                        </ul>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+          <!--Fin Barra Izq-->
+          <!--Inicio centro-->
+          <div class="sidebar">
+              <div class="h-01">
+                  <!--Inicio barra top-->
+                  <div class="h-02">
+                    <h2 class="h-03" style="margin-bottom: 0px;">
+                      <a href="#" class="h-04">IS410-Programacion Orientada a Objetos: I-2019</a>
+                    </h2>
+                    <div class="h-05">
+                      <div class="h-06">
+                        <div class="h-07">
+                          <div class="h-08">
+                            <a href="#" class="not-01">
+                              <span class="icon-msj"></span>
+                              Notifications
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Fin barra top-->
+                  <div class="z-01">
+                    <div id="center">
+                      <div class="z-02">
+                        <div class="z-03" id="materiales2">
+                          <div class="z-04">
+                            <div class="materials-top">
+                              <div class="z-05" style="display: none;"></div>
+                              <div class="z-06">
+                                <img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png" 
+                                alt="All Materials dropdown" class="arrow">
+                                <div class="z-07">
+                                  <div class="z-08" tabindex="0" role="button" href="#">
+                                      <span class="let-mat" onclick="mostrar('divTexto3'); return false">All Materials</span>
+                                  </div>
+                                  <ul class="links1"  id="divTexto3"style="display: block;visibility:hidden"">
+                                    <li class="li-hol">
+                                        <a href="#" class="divhol">All Materials</a>
+                                    </li>
+                                    <li class="li-fil">
+                                        <a href="#" class="divfil">Files</a>
+                                    </li>
+                                    <li class="li-fil">
+                                        <a href="#" class="divlin">Links</a>
+                                    </li>
+                                    <li class="li-fil">
+                                        <a href="#" class="divdis">Discussions</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div> 
+                            <div class="z-09">
+                              <form action="" role="form" accept-charset="UTF-8" method="post" class="z-10">  
+                                <div>
+                                  <div role="presentation" class="t-01">
+                                    <div class="t-03">
+                                      <div class="t-02" display_weight="0">
+                                        <div class="folder-01">
+                                          <span tabindex="0" role="button" class="t-04">
+                                            <span class="visually"></span>
+                                          </span>
+                                          <div class="material-folder">
+                                              <span class="t-05">
+                                                  <span class="visually"></span>
+                                              </span>
+                                              <div class="item-info">
+                                                  <div class="folder-title">
+                                                      <a href="#" class="active-01">Documentos</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div> 
+                                      <div class="t-02" display_weight="1">
+                                            <div class="folder-01">
+                                                  <span tabindex="0" role="button" class="t-04">
+                                                    <span class="visually"></span>
+                                                  </span>
+                                                  <div class="material-folder">
+                                                      <span class="t-05">
+                                                          <span class="visually"></span>
+                                                      </span>
+                                                      <div class="item-info">
+                                                          <div class="folder-title">
+                                                              <a href="#" class="active-01">Ejercicios Practicos</a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                            </div>
+                                      </div>
+                                      <div class="t-02" display_weight="2">
+                                            <div class="folder-01">
+                                                  <span tabindex="0" role="button" class="t-04">
+                                                    <span class="visually"></span>
+                                                  </span>
+                                                  <div class="material-folder">
+                                                      <span class="t-06">
+                                                          <span class="visually"></span>
+                                                      </span>
+                                                      <div class="item-info">
+                                                          <div class="folder-title">
+                                                            <a href="#" class="active-01">Enunciados</a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                            </div>
+                                      </div>
+                                      <div class="t-02" display_weight="3">
+                                            <div class="folder-01">
+                                                  <span tabindex="0" role="button" class="t-04">
+                                                    <span class="visually"></span>
+                                                  </span>
+                                                  <div class="material-folder">
+                                                      <span class="t-07">
+                                                          <span class="visually"></span>
+                                                      </span>
+                                                      <div class="item-info">
+                                                          <div class="folder-title">
+                                                            <a href="#" class="active-01">Entregas</a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                            </div>
+                                      </div>
+                                      <div class="e-01" display_weight="4">
+                                        <div class="folder-cell">
+                                          <div class="folder-w">
+                                            <span class="icon-d01">
+                                              <span class="visually"></span>
+                                            </span>
+                                            <div class="item-01">
+                                              <div class="item-title">
+                                                <a href="#" class="proc01">Equipos para el proyecto</a>
+                                              </div>
+                                              <div class="item-02">
+                                                    Comentar los equipos para el proyecto bajo este foro. Límite es de dos personas.
+                                              </div>
+                                              <div class="item-03">
+                                                <span class="small gray">Due Monday, June 11, 2018 at 11:59 pm</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="r-01" display_weight="5">
+                                        <div class="r-02">
+                                          <div class="r-03">
+                                              <span class="links03">
+                                                    <span class="r-04" style="background:url(https://asset-cdn.schoology.com/system/files/imagecache/s_favicon/attachments/links/favicons-201901/favicon-7f969f62ee272a3be19966806fff4ad5_5b0ecd0f6df78_5c4f3cbd47d82.png)">
+                                                    </span>
+                                                    <span class="visually"></span>
+                                              </span>
+                                              <div class="r-05">
+                                                  <div class="r-06">
+                                                      <a href="#" class="reposit">Repositorio de los ejercicios de clase</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                </div>
+                              </form>
+                            </div> 
+                          </div>
+                        </div>
+                        <div class="updates-01" id="actualizaciones2">
+                            <div class="updates-02">
+                                <div class="updates-03">
+                                    <div class="smart-box-top"></div>
+                                    <div class="updates-03">
+                                      <form role="form" accept-charset="UTF-8" method="post" action="" class="crearpost">
+                                        <div class="updates-04">
+                                          <div class="updates-05">
+                                            <div class="updates-06">
+                                              <textarea name="body" id="edit-body" cols="60" rows="5" class="upd-01" aria-hidden="true">
+                                              </textarea>
+                                            </div>
+                                          </div>
+                                          <div class="upd-02">
+                                            <span class="button-01 save">
+                                             <input type="submit" name="op" id="edit-submit" value="Post" value class="Guardar2">
+                                            </span>
+                                          </div>
+                                          <div>
+                                                <div class="most1">
+                                                        <span class="recent1" onclick="mostrar('divTexto1'); return false" >Most Recent</span>
+                                                        <div class="cuadro-desplegable" id="divTexto1"style="display: block;visibility:hidden; background-color: #fff">
+                                                          <span class="op1">
+                                                            <span class="img-op1"></span>
+                                                            Most Recent
+                                                          </span>
+                                                          <span class="op2">
+                                                            <span class="img-op2"></span>
+                                                            Updates
+                                                          </span>
+                                                          <span class="op3">
+                                                            <span class="img-op3"></span>
+                                                            Polls
+                                                          </span>
+                                                        </div>
+                                                      </div>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grado-01" id="grados2">
+                          <div class="grado-02"></div>
+                          <div class="grado-03">
+                            <div class="grado-04">
+                                <img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/expandable-sprite.png" 
+                                class="icon-report">
+                                <span class="grado-05">
+                                    (no grading period)
+                                </span>
+                                <span class="grado-06">
+                                  (0%)
+                                </span>
+                            </div>
+                          </div>
+                          <div class="summary1">
+                              <span class="black">Course Grade:</span>
+                              <span class="grey">N/A</span>
+                          </div>
+                        </div>
+                        <div class="grado-01" id="asistencia2">
+                          <div class="asis-02">
+                              <div class="asis-03">
+                                <span class="black1">Absent 0</span>
+                                <span class="black2">Late 0</span>
+                                <span class="black3">Excused 0</span>
+                              </div>
+                              <div class="none1">
+                                <span class="grey1">None</span>
+                                <span class="grey2">None</span>
+                                <span class="grey3">None</span>
+                              </div>
+                          </div>
+                          <div class="coments">
+                              <h3 style="font-size: 17px;">Comments</h3>
+                              <div class="com-01">
+                                  No comments
+                              </div>
+                          </div>
+                        </div>
+                        <div class="miem-01" id="miembros2">
+                          <div class="miem-02">
+                            <div class="miem-03">
+                              <span class="all1">All</span>
+                              <span class="all2">Members</span>
+                              <span class="all2">Admins</span>
+                            </div>
+                            <div class="miem-04">
+                                <input type="text" class="in-01">
+                                <span class="search1"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Inicio Barra Derecha-->
+                      <div class="right-column1" role="complementary" id="right">
+                        <div class="right-01">
+                           <div class="right-02">
+                               <h3 class="selector01">
+                                   <span class="upcoming">Upcoming</span>
+                                   .
+                                   <span class="upcoming01"  tabindex="0" role="button">
+                                       <span class="visually"></span>
+                                   </span>
+                                   <div class="events1">
+                                        No upcoming assignments or events
+                                   </div>
+                               </h3>
+                           </div>
+                        </div>
+                      </div>
+                      <!--Fin Barra Derecha-->
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!--Fin centro-->
+        </div>
+      </div>
+      <!--fin body-->
+
+      <footer>
+          <nav class="navbar navbar-expand-lg navbar-light nav-footer" style="margin-top: 30px">
+              <a class="navbar-brand sub" href="#" id="letra" style="padding-bottom: 6px; font-size: 1rem">English</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item flex">
+                    <a class="nav-link sub letra-1" href="#" style="padding-left: 8px; margin-left: 595px" id="letra">Support</a>
+                    <div class="linea">|</div>
+                  </li>
+                  <li class="nav-item flex">
+                    <a class="nav-link sub letra-1" href="#" id="letra">Schoology Blog</a>
+                    <div class="linea">|</div>
+                  </li>
+                  <li class="nav-item flex">
+                    <a class="nav-link sub letra-1" href="#" id="letra">Privacy Policy</a>
+                    <div class="linea">|</div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link sub letra-1" href="#" id="letra">Terms of Use</a>
+                  </li>
+                  <h1 class="letraschool">Schoology © 2019</h1>
+                </ul>
+              </div>
+            </nav>
+      </footer>
+      <script src="js/course1-controlador.js"></script>
+</body>
+</html>

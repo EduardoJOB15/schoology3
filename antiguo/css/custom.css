@@ -1,0 +1,16 @@
+.navbar{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+#form-login{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color:rgb(228, 228, 228); 
+    width: 350px;
+}
+
+/*clases para el menu desplegable de home*/
+
+/**/

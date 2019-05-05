@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Schoology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos1.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.4.1.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light nav-color" style="height: 61px;">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="140" height="30" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="btn-group btn-group-toggle " data-toggle="buttons">
+            <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos letraboton" href="course.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  COURSES
+                </a> 
+                <div class="dropdown-menu hr11 margen2 dropdown-menu-right">
+                  <div class="div-margen1">
+                    <div class="div-5">
+                    <div class="div-grupo">
+                      <h2 class="letrap">Courses</h2>
+                      <a href="#">My Courses</a>
+                    </div>
+                    <div class="div-6">
+                      <div class="div-7">
+                        <article class="articulo">
+                          <a href="course.html" style="text-decoration: none">
+                            <div class="curso">
+                              <img src="img/curso1.png" class="img-curso">
+                            </div>
+                            <div class="div-curso">
+                              <div class="margen0">
+                                <div class="letra-curso">IS410-Programacion Orientada a Objetos</div>
+                                <div class="letra-curso1">I-2019</div>
+                                <div class="letra-curso2">user school</div>
+                              </div>
+                            </div>
+                          </a>
+                        </article>
+                      </div>
+                      <div class="div-7">
+                        <article class="articulo">
+                          <a href="#" style="text-decoration: none">
+                            <div class="curso1">
+                              <span class="span-curso">+</span>
+                            </div>
+                            <div class="div-curso1">
+                              <h3 class="unir">Join a Course</h3>
+                            </div>
+                          </a>
+                        </article>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          <div class="dropdown">
+              <a class="btn btn-presionar btn-h btn-grupos letraboton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                GROUPS
+              </a> 
+              <div class="dropdown-menu hr12 margen1 dropdown-menu-right">
+                <div class="div-margen">
+                <div class="div-2">
+                <div class="div-grupo">
+                  <h2 class="letrag">Groups</h2>
+                  <a href="#">My Groups</a>
+                </div>
+                <div>
+                  <header class="div-3">
+                    <h2 class="letra-grupos">You have not joined any groups</h2>
+                    <img src="img/20190310_145406.png" class="avion-papel">
+                    <div class="div-4">
+                        <button class="boton-grupo">
+                          <span class="span-grupo">Join a Group</span>
+                        </button>
+                    </div>
+                  </header>
+                </div>
+                </div>
+                </div>
+              </div>
+          </div>
+          <label class="btn btn-presionar btn-grupos letraboton">
+            <input type="radio" name="options" id="option3" autocomplete="off" href="resources.html"> RESOURCES
+          </label>
+          <div class="dropdown">
+              <a class="btn btn-presionar btn-h btn-grupos letraboton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                GRADES
+              </a> 
+          <div class="dropdown-menu btn-lista drop-margen1" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item btn-bts1" id="letra" href="#">Grade Report</a>
+            <a class="dropdown-item btn-bts1" id="letra" href="#">Attendance</a>
+          </div>
+        </div>
+        <div class="btn-group btn-group-toggle " data-toggle="buttons" >
+            <div class="dropdown">
+              <a class="btn btn-presionar btn-h btn-grupos margen-lupa" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/lupa.png" class="tamanio-imagen">
+              </a>
+              <div class="dropdown-menu dropdown-menu-right hr5">
+                <li>
+                  <label class="label1">
+                    <div>
+                      <img src="img/lupa.png" class="img-lupa">
+                    </div>
+                    <input type="text" placeholder="Search" class="buscar1" value>
+                  </label>
+                </li>
+              </div>
+            </div>
+            <label class="btn btn-presionar btn-grupos">
+              <input type="radio" name="options" id="option2" autocomplete="off"><img src="img/calendary.png" class="tamanio-imagen">
+            </label>
+            <div class="dropdown">
+              <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="img/mensaje.png" class="tamanio-imagen">
+              </a>
+              <div class="dropdown-menu dropdown-menu-right hr7">
+                <div class="hr6">
+                  <h3 class="mensaje">Messages</h3>
+                  <a href="#" style="text-decoration: none;" class="ancla-mensaje">New Message</a>
+                </div>
+                <div class="dropdown-divider division2"></div>
+                <p class="parrafo1">You currently do not have any messages.</p>
+              </div>
+            </div>
+            <div class="dropdown">
+                <a class="btn btn-presionar btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/campana.png" class="tamanio-imagen">
+                </a>
+            <div class="dropdown-menu dropdown-menu-right hr10">
+              <div class="hr9">
+                <button class="notificacion">Notifications</button>
+                <a href="#" style="text-decoration: none;">Requests</a>
+              </div>
+              <div class="dropdown-divider division"></div>
+              <footer>
+                  <div class="dropdown-divider division1"></div>
+                  <div class="hr8">
+                    <button class="boton1">View All</button>
+                  </div>
+              </footer>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="btn btn-presionar dropdown-toggle btn-h btn-grupos" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              @Usuario
+            </a>
+        <div class="dropdown-menu dropdown-menu-right btn-lista drop-margen" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item btn-bts" id="letra" href="User.html">Your Profile</a>
+          <a class="dropdown-item btn-bts" id="letra" href="#">user school</a>
+          <a class="dropdown-item btn-bts" id="letra" href="settings.html">Setting</a>
+          <div class="dropdown-divider drop-division"></div>
+          <div>
+            <a class="dropdown-item btn-bts" id="letra" href="login.html"><img src="img/cerrar.png" width="18px" class="cerrar">Logout</a>
+          </div>
+        </div>
+        </div>
+      </nav>
+  </header>
+   <!--body-->         
+    <div class="container container1">
+        <div class="row">
+            <div class="col-xl-9">
+                <div class="row abc">
+                  <div class="efg1">
+                    <a class="span2 h0" href="home.html" id="ancla2"><span>RECENT ACTIVITY</span></a>
+                  </div>
+                  <div class="hij">
+                    <a class="span31 h0" href="#" id="ancla3"><span>COURSE DASHBOARD</span></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container2">
+      <div class="row div0">
+        <div class="tam" id="contenido">
+          <div class="div-course" id="course002">
+              <div class="dashboard1" data-reactid=".2">
+                <div class="view" data-reactid=".2.0">
+                  <div class="course1" data-reactid=".2.0.0">
+                    <a href="#" role="tooltip" class="icon1" id="elemento1" data-reactid=".2.0.0.0"></a>
+                    <div class="tip" id="tip1">
+                      Keyboard support for drag and drop<br>
+                      <br>
+                      <b>&nbsp;&nbsp;&nbsp;Tab/Shift: </b>Move focus between draggable item<br>
+                      <b>&nbsp;&nbsp;&nbsp;Space: </b>Pick up or drop an item<br>
+                      <b>&nbsp;&nbsp;&nbsp;Left Arrow: </b>Move item one place to the left<br>
+                      <b>&nbsp;&nbsp;&nbsp;Right Arrow: </b>Move item one place to the right 
+                    </div>
+                    <div class="tarjetas">
+                     <li class="poo">
+                         <a href="course.html" style="text-decoration: none;">
+                        <section class="seccion-01" aria-label="Navigate to course: IS410-Programacion Orientada a Objetos: I-2019.  Organization: user school. Instructor: Erick Marín" tabindex="0">
+                          <div class="img-poo">
+                            <div id="imagen-0100">
+                                <div id="info-001">
+                                 <p id="descripcion-001">Instructor: Erick Marin</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="poo3">
+                            <div>IS410-Programacion Orientada a Objetos:</div>
+                            <div>I-2019</div>
+                            <div class="user-01">user school</div>
+                          </div>  
+                        </section>
+                        </a>
+                     </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="div2">
+          <div class="div3">
+            <span class="letter">Upcoming</span>
+            <a href="#" class="calendar letter1" id="color0">Calendar</a>
+          </div>
+          <div class="div4">
+            <span class="fuente">No upcoming assignments or events</span>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!--fin body-->
+
+   <script>
+      /*(function ocultarinicio(){
+        $('#course002').fadeOut(1);
+      })();
+
+      function quitar1(){
+        $('#course002').fadeOut(1);
+      };
+      
+      function quitar2(){
+        $('#course001').fadeOut(1);
+      };
+      
+      $('#ancla2').click(function poner1(){
+                  $('#course001').fadeIn(2);
+                  (quitar1())();
+              });
+      $('#ancla3').click(function poner2(){
+                  $('#course002').fadeIn(2);
+                  (quitar2())();
+              });*/
+
+      $(document).ready(function(){
+        $("#elemento1").mouseenter(function(e){
+        $("#tip1").css("right", e.pageX - 824);
+        $("#tip1").css("top", e.pageY - 150);
+        $("#tip1").css("display", "block");
+      });
+      $("#elemento1").mouseleave(function(e){
+         $("#tip1").css("display", "none");
+      });
+      })
+
+      function mostrar(id) {
+  obj = document.getElementById(id);
+  obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';
+}
+              
+   </script>
+
+  <footer>
+      <nav class="navbar navbar-expand-lg navbar-light nav-footer" style="margin-top: 171px;">
+        <a class="navbar-brand sub" href="#" id="letra" style="padding-bottom: 6px; font-size: 1rem">English</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item flex">
+              <a class="nav-link sub letra-1" href="#" style="padding-left: 8px; margin-left: 595px" id="letra">Support</a>
+              <div class="linea">|</div>
+            </li>
+            <li class="nav-item flex">
+              <a class="nav-link sub letra-1" href="#" id="letra">Schoology Blog</a>
+              <div class="linea">|</div>
+            </li>
+            <li class="nav-item flex">
+              <a class="nav-link sub letra-1" href="#" id="letra">Privacy Policy</a>
+              <div class="linea">|</div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sub letra-1" href="#" id="letra">Terms of Use</a>
+            </li>
+            <h1 class="letraschool">Schoology © 2019</h1>
+          </ul>
+        </div>
+      </nav>
+  </footer>
+</body>
+</html>
